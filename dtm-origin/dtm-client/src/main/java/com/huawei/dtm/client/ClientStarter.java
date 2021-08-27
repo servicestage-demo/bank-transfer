@@ -27,7 +27,7 @@ public class ClientStarter implements ApplicationRunner {
 
     private static final org.slf4j.Logger LOGGER = LoggerFactory.getLogger(ClientStarter.class);
 
-    private static final int ACCOUNT = 500;
+    private static final int ACCOUNT = 50;
 
     private BufferedReader console = new BufferedReader(new InputStreamReader(System.in));
 
