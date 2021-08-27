@@ -60,9 +60,6 @@ public class ClientStarter implements ApplicationRunner {
                     case DTM_TRANSFER_LOCAL:
                         doExecuteLocal(userIds);
                         break;
-                    case DTM_TCC_TRANSFER_LOCAL:
-                        transferService.transferTccLocal();
-                        break;
                 }
             } catch (Throwable throwable) {
                 LOGGER.error(throwable.getMessage());
