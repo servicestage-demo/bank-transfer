@@ -5,7 +5,6 @@ public enum MenuOpEnum {
     DTM_QUERY_ACCOUNT("查询 Bank A 和 Bank B 余额"),
     DTM_TRANSFER_LOCAL_UNABLE("非侵入用例 -> 不使用DTM事务 本地场景验证"),
     DTM_TRANSFER_LOCAL("非侵入用例 -> DTM 事务 本地场景验证"),
-    DTM_TCC_TRANSFER_LOCAL("TCC 用例 -> DTM 事务 本地场景验证成功场景"),
     EXIT("EXIT");
 
     private String des;
