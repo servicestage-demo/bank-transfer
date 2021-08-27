@@ -19,7 +19,7 @@ public class TransferService {
 
     private static final org.slf4j.Logger LOGGER = LoggerFactory.getLogger(TransferService.class);
 
-    private static final int ACCOUNT = 500;
+    private static final int ACCOUNT = 50;
 
     public static final int INIT_MONEY = 1000000;
 
