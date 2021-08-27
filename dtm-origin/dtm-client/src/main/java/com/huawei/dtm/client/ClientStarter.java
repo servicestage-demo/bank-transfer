@@ -1,4 +1,4 @@
-﻿package com.huawei.dtm.client;
+package com.huawei.dtm.client;
 
 import com.huawei.dtm.client.service.TransferService;
 import com.huawei.dtm.client.utils.CmdUtils;
@@ -59,6 +59,9 @@ public class ClientStarter implements ApplicationRunner {
                         break;
                     case DTM_TRANSFER_LOCAL:
                         doExecuteLocal(userIds);
+                        break;
+                    case DTM_TCC_TRANSFER_LOCAL:
+                        transferService.transferTccLocal();
                         break;
                 }
             } catch (Throwable throwable) {

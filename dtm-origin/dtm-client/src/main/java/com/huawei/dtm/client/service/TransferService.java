@@ -1,4 +1,4 @@
-﻿package com.huawei.dtm.client.service;
+package com.huawei.dtm.client.service;
 
 import com.huawei.common.impl.BankAService;
 import com.huawei.common.impl.BankBService;
@@ -19,7 +19,7 @@ public class TransferService {
 
     private static final org.slf4j.Logger LOGGER = LoggerFactory.getLogger(TransferService.class);
 
-    private static final int ACCOUNT = 50;
+    private static final int ACCOUNT = 500;
 
     public static final int INIT_MONEY = 1000000;
 
